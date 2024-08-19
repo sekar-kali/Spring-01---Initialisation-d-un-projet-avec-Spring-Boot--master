@@ -1,10 +1,10 @@
-package com.myblog.blog;
+package org.wildcodeschool.myblog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BlogApplicationTests {
+class MyBlogApplicationTests {
 
 	@Test
 	void contextLoads() {
