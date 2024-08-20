@@ -23,6 +23,18 @@ public class Article {
     @Column(nullable = false)
     private LocalDateTime updatedAt;
 
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
     // Getters et setters
 
     public Long getId() {
